@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next gemini use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -95,9 +95,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -180,7 +180,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -190,7 +190,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -231,7 +231,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://gupern.github.io/2021/12/12/helloworld/">
+    <link itemprop="mainEntityOfPage" href="https://gupern.github.io/2021/12/13/how%20to%20build%20this%20blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -250,7 +250,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2021/12/12/helloworld/" itemprop="url">helloworld</a></h1>
+                <a class="post-title-link" href="/2021/12/13/how%20to%20build%20this%20blog/" itemprop="url">how to build this blog</a></h1>
         
 
         <div class="post-meta">
@@ -262,8 +262,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-12-12T14:46:20+08:00">
-                2021-12-12
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-12-13T00:19:18+08:00">
+                2021-12-13
               </time>
             
 
@@ -301,10 +301,18 @@
 
       
         
-          
-            <h1 id="This-is-my-first-blog-in-Github"><a href="#This-is-my-first-blog-in-Github" class="headerlink" title="This is my first blog in Github!"></a>This is my first blog in Github!</h1><p><img src="https://gupern.github.io/2021/12/12/helloworld/1.jpg"></p>
-
-          
+          <h1 id="installation"><a href="#installation" class="headerlink" title="installation"></a>installation</h1><h2 id="install-hexo"><a href="#install-hexo" class="headerlink" title="install hexo"></a>install hexo</h2><p><code>npm install -g hexo-cli</code></p>
+<h2 id="initial-blog-project"><a href="#initial-blog-project" class="headerlink" title="initial blog project"></a>initial blog project</h2><p><code>hexo init blog</code></p>
+<h2 id="install-theme"><a href="#install-theme" class="headerlink" title="install theme"></a>install theme</h2><p><code>cd your-hexo-site</code><br><code>npm install hexo-theme-next</code></p>
+<h2 id="install-photo-plugin"><a href="#install-photo-plugin" class="headerlink" title="install photo plugin"></a>install photo plugin</h2><p><code>npm install hexo-asset-image --save</code></p>
+<h2 id="setting-hexo-config-yml"><a href="#setting-hexo-config-yml" class="headerlink" title="setting hexo ./_config.yml"></a>setting hexo ./_config.yml</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br><span class="line">post_asset_folder: true</span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:Gupern/gupern.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2021/12/13/how%20to%20build%20this%20blog/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -382,7 +390,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
@@ -443,7 +451,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -542,6 +550,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
